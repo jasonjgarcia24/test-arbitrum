@@ -1,0 +1,4 @@
+module.exports = {
+    BLOCK_NUMBER: 15563000,
+    GMX_TOKEN: "0xfc5A1A6EB076a2C7aD06eD22C90d7E710E35ad0a"
+}

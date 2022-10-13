@@ -1,0 +1,27 @@
+{
+  "name": "test-arbitrum",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonjgarcia24/test-arbitrum.git"
+  },
+  "author": "jasongarcia.eth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jasonjgarcia24/test-arbitrum/issues"
+  },
+  "homepage": "https://github.com/jasonjgarcia24/test-arbitrum#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "hardhat": "^2.12.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "ethers": "^5.7.1"
+  }
+}

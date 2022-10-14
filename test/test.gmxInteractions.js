@@ -22,7 +22,7 @@ describe("0-0 :: GMX test on Arbitrum Mainnet", function () {
         console.log(balance);
     });
 
-    it("0-1-00 :: Send raw transaction", async function () {
+    it("0-1-00 :: Test with raw abi", async function () {
         let abi= [{
             "inputs": [],
             "name": "gov",
@@ -35,7 +35,7 @@ describe("0-0 :: GMX test on Arbitrum Mainnet", function () {
             "stateMutability": "view",
             "type": "function"
         }];
-        
+
         let GMXToken_govCaller = await ethers.getContractAt(abi, GMX_TOKEN, signer);
         let gov = await GMXToken_govCaller.gov();
 

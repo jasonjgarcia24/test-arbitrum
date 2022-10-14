@@ -1,26 +1,30 @@
 {
-  "name": "test-arbitrum",
+  "name": "test-gmx-integration",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.",
+  "main": "config.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jasonjgarcia24/test-arbitrum.git"
+    "url": "git+https://github.com/jasonjgarcia24/test-gmx-integration.git"
   },
   "author": "jasongarcia.eth",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jasonjgarcia24/test-arbitrum/issues"
+    "url": "https://github.com/jasonjgarcia24/test-gmx-integration/issues"
   },
-  "homepage": "https://github.com/jasonjgarcia24/test-arbitrum#readme",
+  "homepage": "https://github.com/jasonjgarcia24/test-gmx-integration#readme",
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^2.0.0",
     "hardhat": "^2.12.0"
   },
   "dependencies": {
+    "@openzeppelin/contracts": "^4.7.3",
     "dotenv": "^16.0.3",
     "ethers": "^5.7.1"
   }
